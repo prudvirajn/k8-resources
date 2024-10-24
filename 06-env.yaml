@@ -1,0 +1,15 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: environment
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    env:
+      - name: job
+        value: devops
+      - name: executor
+        value: "prudvi raj"
+      - name: duration
+        value: "120hr"
