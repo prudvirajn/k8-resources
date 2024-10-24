@@ -9,7 +9,7 @@ spec:
     env:
       - name: job
         value: devops
-      - name: executor
+      - name: executive enginner
         value: "prudvi raj"
       - name: duration
-        value: "120hr"
+        value: "12hr"
