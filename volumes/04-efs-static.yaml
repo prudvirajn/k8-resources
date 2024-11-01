@@ -12,7 +12,7 @@ spec:
   persistentVolumeReclaimPolicy: Retain
   csi:
     driver: efs.csi.aws.com
-    volumeHandle: fs-00cbb3f0e4313c700
+    volumeHandle: fs-37e8d7ef8531d678
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
@@ -59,4 +59,3 @@ spec:
     port: 80 # service port
     targetPort: 80 # container port
     nodePort: 30007
-    
